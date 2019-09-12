@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Date Night</title>
 </head>
 <body>
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <div class="nav-wrapper valign-wrapper black">
+                <a href="index.html" class="brand-logo center"><img class="logo" src="assets/images/date-night-title.gif" alt="Date Night"></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="row main-page">
+            <!-- Card Content -->
+            <div class="col s12 m4 offset-m4">
+                <div class="card grey lighten-5">
+                    <div class="card-content white-text center z-depth-5">
+                        <span class="card-title black-text">
+                            <strong>Search for somewhere to go!</strong>
+                        </span>
+                        <!-- Input Field  -->
+                        <div class="input-field col s12">
+                            <input type="text" id="input-food" placeholder="food, event, or random" class="validate">
+                            <label for="input-food">Topic</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="text" id="input-address" placeholder="address, city, state, or zip" class="validate">
+                            <label for="input-address">Location</label>
+                        </div>
+                        <!-- Submit button  -->
+                        <button class="btn waves-effect waves-red btn-large grey darken-4" type="submit" name="action">
+                            SEARCH
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Container for restaurants/activities -->
+            <div class="container">
+                <div class="col s12 m8 offset-m2">
+                    <div id="restaurant-area"></div>
+                </div>
+            </div>
+        </div>
+    </main>
     
+    <!-- Footer  -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 offset-l2 s6">
+                    <h6 class="white-text">Authors</h6>
+                    <ul class="footer-font">
+                        <li><a class="grey-text text-lighten-3" href="#!">Emilio Valladares</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Taylor Ellis</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Grant Bowen</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Gerar Suaverdez</a></li>
+                    </ul>
+                </div>
+                <div class="col l4 offset-l2 s6">
+                    <h6 class="white-text">Links</h6>
+                    <ul class="footer-font">
+                        <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center footer-font">
+            © 2019 Date Night
+            </div>
+        </div>
+    </footer>
+            
 </body>
 </html>

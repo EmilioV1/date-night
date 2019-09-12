@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/churro.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.logo {
+    padding-top: 20px;
+    width: 350px;
+}
+nav {
+    height: 140px;
+}
+.main-page {
+    padding-top: 50px;
+}
+.card-title {
+    font-size: 2rem!important;
+}
+.footer-font {
+    font-size: 0.7rem;
+}
