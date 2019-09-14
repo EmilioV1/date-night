@@ -1,4 +1,4 @@
-function conversation() {
+$("#btn").on("click", function conversation() {
 
 $.get( "https://cors-anywhere.herokuapp.com/https://www.conversationstarters.com/101.htm", function( htmlContent ) {
     let parser = new DOMParser();
@@ -12,4 +12,4 @@ $.get( "https://cors-anywhere.herokuapp.com/https://www.conversationstarters.com
     
     $("#random-question").text(rawLiElements[Math.floor(Math.random() * rawLiElements.length)].innerText);
 });
-};
+});
