@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/churro.jpg");
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../images/churro.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -12,10 +12,11 @@ main {
 }
 .logo {
     padding-top: 20px;
-    width: 350px;
+    width: 400px;
 }
 nav {
     height: 140px;
+    overflow: hidden;
 }
 .main-page {
     padding-top: 50px;
@@ -23,6 +24,12 @@ nav {
 .card-title {
     font-size: 2rem!important;
 }
-.footer-font {
-    font-size: 0.7rem;
+.card {
+    opacity: 0.92;
+}
+.card-2 {
+    padding: 10px 0;
+}
+.fa-github {
+    color: red;
 }
