@@ -1,4 +1,4 @@
-$("#btn").on("click", function conversation() {
+$(".submit-btn").on("click", function conversation() {
 
     $.get( "https://cors-anywhere.herokuapp.com/https://www.conversationstarters.com/101.htm", function( htmlContent ) {
         let parser = new DOMParser();
@@ -9,7 +9,8 @@ $("#btn").on("click", function conversation() {
         let rawLiElements = parsedHtml.getElementsByTagName("li");
         let liElements = [];
     
-        
-        $("#random-question").text(rawLiElements[Math.floor(Math.random() * rawLiElements.length)].innerText);
+        var question = rawLiElements[Math.floor(Math.random() * rawLiElements.length)].innerText
+        $("#random-question").text(question);
+        // $("#random-question").text(rawLiElements[Math.floor(Math.random() * rawLiElements.length)].innerText);
     });
     });
