@@ -9,7 +9,7 @@ $.get( "https://cors-anywhere.herokuapp.com/https://www.conversationstarters.com
     let rawLiElements = parsedHtml.getElementsByTagName("li");
     let liElements = [];
 
-    
-    $("#random-question").text(rawLiElements[Math.floor(Math.random() * rawLiElements.length)].innerText);
+    var question = rawLiElements[Math.floor(Math.random() * rawLiElements.length)].innerText
+    $("#random-question").text(question);
 });
 });
