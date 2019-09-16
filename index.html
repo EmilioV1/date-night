@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified Materialize CSS -->
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/37f4c3b989.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Date Night</title>
 </head>
 <body>
@@ -24,7 +22,7 @@
             </div>
         </nav>
     </header>
-
+    
     <!-- Main Content -->
     <main>
         <div class="row main-page">
@@ -37,14 +35,14 @@
                         </span>
                         <!-- Input Field Topic -->
                         <div class="input-field col s12">
-                            <input type="text" id="input-food" placeholder="food, recipe, or ingredient" class="validate">
+                            <input type="text" id="input-food" placeholder="food or restaurant" aria-required="true" class="validate">
                             <label for="input-food">Topic</label>
                         </div>
                         <!-- Input Field Location -->
                         <div class="input-field col s12">
-                                <input type="text" id="input-address" placeholder="address, city, state, or zip" class="validate">
-                                <label for="input-address">Location</label>
-                            </div>
+                            <input type="text" id="input-address" placeholder="address, city, state, or zip" aria-required="true" class="validate">
+                            <label for="input-address">Location</label>
+                        </div>
                         <!-- Submit button  -->
                         <button class="btn waves-effect waves-red btn-large grey darken-4 submit-btn" type="submit" name="action">
                             SEARCH
@@ -57,8 +55,14 @@
                 <div id="restaurant-area"></div>
             </div>
         </div>
+
+        <!-- Converstation Buttion  -->
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red tooltipped" data-position="left" data-tooltip="Click me for a conversation starter!">
+                <i class="large material-icons" >?</i>
+            </a>
+        </div>
     </main>
-    
     <!-- Footer  -->
     <footer class="page-footer orange darken-2">
         <div class="container">
@@ -67,17 +71,18 @@
                     <!-- List of Authors  -->
                     <h6 class="white-text">Authors</h6>
                     <ul>
-                        <li><a href="#!"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" href="#!">Emilio Valladares</a></li>
-                        <li><a href="#!"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" href="#!">Taylor Ellis</a></li>
-                        <li><a href="#!"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" href="#!">Grant Bowen</a></li>
-                        <li><a href="#!"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" href="#!">Gerar Suaverdez</a></li>
+                        <li><a href="https://github.com/Nolimits1" target="_blank"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/Nolimits1">Emilio Valladares</a></li>
+                        <li><a href="https://github.com/teellis20" target="_blank"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/teellis20">Taylor Ellis</a></li>
+                        <li><a href="https://github.com/itsgoodtobegrant" target="_blank"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/itsgoodtobegrant">Grant Bowen</a></li>
+                        <li><a href="https://github.com/gerarjon" target="_blank"><i class="fab fa-github"></i></a><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/gerarjon">Gerar Suaverdez</a></li>
                     </ul>
                 </div>
                 <div class="col l4 offset-l2 s6">
                     <!-- List of extra links  -->
                     <h6 class="white-text">Links</h6>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/Nolimits1/project-one">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.yelp.com/developers/documentation/v3/get_started">Powered by Yelp API</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +96,11 @@
     </footer>
     
     <!-- jQuery -->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+    <!-- Converstation App JS -->
+    <script src="assets/js/conversation2.js"></script>
     <!-- App JS -->
     <script src="assets/js/app.js"></script>
 </body>

@@ -6,13 +6,13 @@ body {
     background-position: center;
     background-size: cover;
 }
-
 main {
     flex: 1 0 auto;
 }
 .logo {
+    cursor: pointer;
     padding-top: 20px;
-    width: 400px;
+    width: 360px;
 }
 nav {
     height: 140px;
@@ -24,12 +24,32 @@ nav {
 .card-title {
     font-size: 2rem!important;
 }
-.card {
-    opacity: 0.92;
-}
 .card-2 {
     padding: 10px 0;
+    overflow: auto;
+}
+.res-image {
+    width: 100%;
+}
+.section {
+    width: 500px;
+}
+.section ul li  {
+    font-size: 1.4rem;
+}
+.yelp-logo {
+    width: 30%;
+}
+.section ul li:first-child {
+    font-weight: 900;
+    font-size: 1.8rem;
 }
 .fa-github {
     color: red;
 }
+
+@media only screen and (max-width: 600px) {
+    .res-image {
+        max-width: 275px;
+    }
+} 
