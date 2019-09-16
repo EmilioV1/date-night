@@ -1,7 +1,7 @@
 # Date Night
 
 ## About
-This website serves to answer one of the most asked questions: "Where do you want to eat today?" A user can input a restaurant or food category, as well as their location and in return they a randomly selected restaurant obtained from the Yelp API. In addition, they can also press a button that gives them randomly selected conversation starters to assist them during their date. 
+This website serves to answer one of the most asked questions: "Where do you want to eat today?" A user can input a restaurant or food category, as well as their location and in return they get a randomly selected restaurant obtained from the Yelp API. In addition, they can also press a button that gives them randomly selected conversation starters to assist them during their date. 
 * [Deployed](https://nolimits1.github.io/project-one)
 * [Repo](https://github.com/Nolimits1/project-one)
 
