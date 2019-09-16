@@ -47,9 +47,3 @@ nav {
 .fa-github {
     color: red;
 }
-
-@media only screen and (max-width: 600px) {
-    .res-image {
-        max-width: 275px;
-    }
-} 
