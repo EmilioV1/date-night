@@ -59,6 +59,7 @@ $(".submit-btn").on("click", function() {
             $("#restaurant-area").append(div);
         }   
     })
+    
 })
 
 // 'Submit Again' button on click event
