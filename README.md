@@ -2,8 +2,8 @@
 
 ## About
 This website serves to answer one of the most asked questions: "Where do you want to eat today?" A user can input a restaurant or food category, as well as their location and in return they get a randomly selected restaurant obtained from the Yelp API. In addition, they can also press a button that gives them randomly selected conversation starters to assist them during their date. 
-* [Deployed](https://emiliov1.github.io/project-one)
-* [Repo](https://github.com/emiliov1/project-one)
+* [Deployed](https://emiliov1.github.io/date-night)
+* [Repo](https://github.com/emiliov1/date-night)
 
 ## Screenshots
 <img width="1120" alt="Screen Shot 2019-09-15 at 8 59 41 PM" src="https://user-images.githubusercontent.com/47680567/64981506-0a773780-d871-11e9-9635-3d296767fab8.png">
